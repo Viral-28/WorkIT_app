@@ -1,0 +1,30 @@
+body {
+  background-color: #DCF9F5 !important;
+}
+
+.navbar-main {
+  background-color: #324049 !important;
+  color: #DCF9F5 !important;
+}
+
+.navbar-text {
+  color: #DCF9F5 !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+.navbar-text:hover {
+  background-color: #B6CECB !important;
+  color: #04060F !important;
+}
+
+.activeclass {
+  border: 1px solid #e6f0e0 !important;
+}
+
+.navbar-title {
+  color: #DCF9F5 !important;
+}
+
+.nav-toggle {
+  background-color: white !important;
+}/*# sourceMappingURL=mainTheme.css.map */

@@ -1,0 +1,101 @@
+.blog-card {
+  background-color: #e2f0e0 !important;
+  margin-bottom: 25px !important;
+  border: 1px solid #324049 !important;
+}
+
+.blog-card-title {
+  color: #324049 !important;
+  border-bottom: 1px solid grey;
+}
+
+.blog-card-subtitle {
+  color: #324049 !important;
+  font-size: 13px !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+.blog-card-text {
+  background-color: #e2f0e0 !important;
+  padding: 10px !important;
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+  color: #324049 !important;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+.btn-comment {
+  width: 150px !important;
+  border: 1px solid #e2f0e0 !important;
+  color: #324049 !important;
+  background-color: #e2f0e0 !important;
+}
+
+.footer-icon {
+  float: right;
+}
+
+.blog-card-footer {
+  padding-top: 15px !important;
+  background-color: #324049 !important;
+}
+
+.tag-list-item {
+  background-color: #324049 !important;
+  border-bottom: 1px solid #e2f0e0 !important;
+  padding: 0px !important;
+}
+.tag-list-item:hover {
+  background-color: #e2f0e0 !important;
+}
+
+.tag-list-itam-nav {
+  text-align: center;
+  color: #e2f0e0 !important;
+  padding: 20px !important;
+}
+.tag-list-itam-nav:hover {
+  background-color: #e2f0e0 !important;
+  color: #324049 !important;
+}
+
+.comment-list {
+  background-color: #324049 !important;
+}
+
+.comment-card {
+  background-color: #e2f0e0 !important;
+  padding-top: 10px !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.comment-sub {
+  border-bottom: 1px solid #324049 !important;
+  padding-bottom: 5px !important;
+}
+
+.comment-text {
+  padding: 10px;
+}
+
+.form-comment {
+  background-color: #e2f0e0 !important;
+}
+
+.col-blog {
+  float: left;
+  padding-top: 15px;
+}
+
+.col-write-heading {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.dummy {
+  color: #d5f8d2 !important;
+  height: 5px !important;
+}/*# sourceMappingURL=blogs.css.map */
