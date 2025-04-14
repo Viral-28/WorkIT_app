@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Nunito:wght@200;300;400;600&display=swap');
+
+.btn-outline-primary {
+    color: #fff;
+    background-color: #613659;
+}
+
+.bck-image {
+    background-image: url("contactbg.jpg");
+    background-repeat: no-repeat;
+    background-position:center; 
+    background-size:cover;
+    position:relative;
+    width: auto;
+    height: auto;
+}
+
+.center-text {
+    text-align: center;
+    font-family: 'Lobster',cursive;
+    font-size: 2.5em;
+}
+
+.text {
+    text-align: center;
+    padding: 0px 50px 20px 50px;
+    font-style: normal;   
+}
+
+#my_form {
+    font-weight: bold;
+}
+
+.contact-container {
+    /* remember to set a width */
+    padding: 10px;
+    margin: 0px 300px;
+    z-index: 2;
+    background: transparent;
+    width: auto;
+}

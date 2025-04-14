@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+
+body {
+    background-color: #E6E6FA !important;
+}
+
+.navbar-main{
+    background-color: #52307c !important;
+    color: #DCF9F5 !important;
+}
+
+.navbar-text{
+    color: #DCF9F5 !important;
+    display: flex !important;
+    justify-content: center !important;
+    &:hover{
+        background-color: rgb(230,215,255)
+        !important;
+        color: #04060F !important;
+    }
+}
+
+.activeclass{
+    border: 1px solid #e6f0e0 !important;
+}
+
+.navbar-title{
+    color: #DCF9F5 !important;
+}
+
+
+
+.nav-toggle{
+    background-color: white !important;
+
+}

@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Cookie&family=Heebo:wght@300&family=Luckiest+Guy&family=Titan+One&family=Ultra&display=swap');
+  /*Quotes*/
+  marquee{
+    font-size: 30px;
+    font-weight: 800;
+    color: #741551;
+    font-family: 'cookie';
+}
+  
+  
+  .box-centerside {
+    border: #a750d0;
+    font-family: 'Ultra', serif;
+    background-image: url("./bg-about.jpg");
+    background-repeat: no-repeat;
+    background-position:center; 
+    background-size:cover;
+    position:relative;
+    width: auto;
+    height: auto;
+    color:rgb(27, 77, 142);
+    text-align: center;
+    font-size: 2.2rem;
+    align-items: center;
+
+    }
+  
+    .text p {
+        font-family: 'Ultra', serif;
+        text-align:center;
+        align-items: center;
+        padding: 10px;
+        margin: 0px 50px 0px 50px;
+    }
+    
+    .author h5 {
+      font-family: 'lobster';
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      color: rgb(105, 28, 28);
+      text-align: center;
+      align-items: center;
+
+    }
+  
+    .button-container {
+      font-family: 'times new roman';
+      align-content: center;
+      margin-top: 15px;
+      margin-left: 530px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+  
+    button {
+      cursor: pointer;
+      font-size: 1.5rem;
+      height: 2.6rem;
+      border: none;
+      color: rgb(135, 183, 237);
+      background: #190e56; 
+      border: black;
+      padding: 0.5rem 1.8rem 0.5rem 1.8rem;
+      text-align: center;
+      align-items: center;
+
+
+    }
+  
+  button:hover {
+    filter: brightness(110%);
+    border: none;
+    outline:0;
+    text-align: center;
+
+  }
+  button:focus {
+    filter: brightness(120%);
+    border: none;
+    outline:0;
+    text-align: center;
+
+  }
+  
+  button:active {
+    text-align: center;
+    border: none; 
+  }
+  
+  /*Twitter*/
+  
+  .twitter-button{
+    background:none;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .twitter-button:hover {
+    color: #38a1f3;
+    filter: brightness(120%);
+    align-items: center;
+    text-align: center;
+
+
+  }
+    
+  .fa-twitter {
+    font-size: 20px;
+    color: #0c0258;
+    align-items: center;
+    text-align: center;
+
+
+  }
+  
+    @media only screen and (max-width: 450px) {
+      .box-centerside {
+        width: 270px;
+        align-items: center;
+        text-align: center;
+
+
+      }
+      .text p{
+        font-size:15px;
+        text-align: center;
+        align-items: center;
+
+      }
+      .author h5{
+        font-size:15px;
+        align-items: center;
+        text-align: center;
+
+      }
+    }
+  
+
+/* css for cards */
+.card-img{
+    height: 375px;
+    width: 375px;
+    object-fit:fill;
+    transition: all 1s ease;
+    display: inline-block;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .card-img{
+        height: 294px;
+        width: 294px;
+        object-fit:fill;
+        transition: all 1s ease;
+        display: inline-block;
+        max-width: 100%;
+    }
+
+    .home-cards {
+        width: 100%;
+    }
+
+    .h5, .btn-go-to {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .home-cards {
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
+
+    .card-img {
+        height: 336px;
+        width: 336px;
+        object-fit:fill;
+        transition: all 1s ease;
+        display: inline-block;
+        max-width: 100%;
+    }
+
+    .home-cards {
+        width: 100%;
+    }
+
+    .h5, .btn-go-to {
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .card-img{
+        height: 403px;
+        width: 403px;
+        object-fit:fill;
+        transition: all 1s ease;
+        display: inline-block;
+        max-width: 100%;
+    }
+
+    .home-cards {
+        width: calc(80% - 10px);
+        margin-bottom: 20px;
+    }
+
+    .h5, .btn-go-to {
+        font-size: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 580px) {
+
+    .card-img{
+        height: 440px;
+        width: 440px;
+        object-fit:fill;
+        transition: all 1s ease;
+        display: inline-block;
+        max-width: 100%;
+    }
+
+    .home-cards {
+        width: calc(80%);
+        margin-bottom: 20px;
+    }
+
+    .h5, .btn-go-to {
+        font-size: 0.5rem;
+    }
+}

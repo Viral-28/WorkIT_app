@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=La+Belle+Aurore&display=swap');
+
+.entries{
+    font-family: 'La Belle Aurore', cursive;
+
+}
+.blog-card{
+    background-color: #e3d4c6
+
+    !important;
+    margin-bottom: 25px !important;
+    border: 1px solid #605a4e !important;
+}
+
+
+.blog-card-title{
+    color: #503d25 !important;
+    border-bottom: 1px solid rgb(30, 28, 28);
+}
+
+.blog-card-subtitle{
+    color: rgb(15, 15, 15) !important;
+    font-size: 13px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.blog-card-text{
+    background-color: #eaf0ed !important;
+    padding: 10px !important;
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+    color: #0a0b0b !important;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.btn-comment{
+    width:150px !important;
+    border: 1px solid #615e4a !important;
+    color: #151719 !important;
+    background-color: #e3d4c6 !important;
+}
+
+.footer-icon{
+    float: right;
+}
+
+.blog-card-footer{
+    padding-top: 15px !important;
+    background-color: #a9937b !important;
+}
+
+.tag-list-item {
+    background-color: #e1cae8 !important;
+    border-bottom: 1px solid #5c525f !important;
+    padding:0px !important;
+    &:hover{
+        background-color: hsl(314, 22%, 77%) !important
+    }
+}
+
+.tag-list-itam-nav{
+    width:175px;
+    text-align: center;
+    color:#0e0d0d !important;
+    padding: 20px !important;
+    &:hover{
+        background-color: hsl(314, 22%, 77%) !important;
+        color: #324049 !important
+    }
+}
+
+.comment-list{
+    background-color: #324049 !important;
+}
+
+.comment-card{
+    background-color: #abb592 !important;
+    padding-top:10px !important ;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+.comment-sub{
+    border-bottom: 1px solid #324049 !important;
+    padding-bottom: 5px !important;
+    
+}
+
+.comment-text{
+    padding: 10px;
+}
+
+.form-comment{
+    background-color: #e2f0e0 !important;
+}
+
+.col-blog{
+    float: left;
+    padding-top: 15px;
+}
+
+
+.col-write-heading{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.dummy{
+    color: #d5f8d2 !important;
+    height:5px !important;
+}
+    
+
